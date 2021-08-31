@@ -1,0 +1,157 @@
+<html <!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <h1>Time Table</h1>
+        <table border="5" cellspacing="10" cellpadding="5" bgcolor="lightgray">
+            <thead>
+                <tr>
+                    <th>Days / Periods</th>
+                    <th>1</th>
+                    <th>2</th>
+                    <th>3</th>
+                    <th> </th>
+                    <th>4</th>
+                    <th>5</th>
+                    <th>6</th>
+                    <th>7</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Mon</td>
+                    <td>Science</td>
+                    <td>English</td>
+                    <td>Hindi</td>
+                    <td rowspan="6">
+                        B<br>R<br>E<br>A<br>K
+                    </td>
+                    <td>Maths</td>
+                    <td>Games</td>
+                    <td colspan="2">Moral Science</td>
+                </tr>
+                <tr>
+                    <td>Tue</td>
+                    <td>Hindi</td>
+                    <td colspan="2">Maths</td>
+                    <td>English</td>
+                    <td>Moral Science</td>
+                    <td rowspan="3">Science</td>
+                    <td>Social Science</td>
+                </tr>
+                <tr>
+                    <td>Wed</td>
+                    <td colspan="2">Games</td>
+                    <td rowspan="3">Moral Science</td>
+                    <td colspan="2">Social Science</td>
+                    <td>Maths</td>
+                </tr>
+                <tr>
+                    <td>Thurs</td>
+                    <td>Science</td>
+                    <td>Maths</td>
+                    <td>Hindi</td>
+                    <td>English</td>
+                    <td>Social Science</td>
+                </tr>
+                <tr>
+                    <td>Fri</td>
+                    <td rowspan="2">Social Science</td>
+                    <td>Science</td>
+                    <td>Maths</td>
+                    <td colspan="2">Hindi</td>
+                    <td>English</td>
+                </tr>
+                <tr>
+                    <td>Sat</td>
+                    <td>Maths</td>
+                    <td>English</td>
+                    <td colspan="2">Science</td>
+                    <td colspan="2">Games</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="9" align="center">This is Class VII</td>
+                </tr>
+            </tfoot>
+        </table>
+        <br>
+        <br>
+        <h1>Bio Data</h1>
+        <form>
+            <fieldset>
+                <legend>Personal Info</legend>
+                <label for="firstname">FirstName : </label>
+                <input type="text" placeholder="First Name" id="firstname" required>
+                <label for="lastname">LastName : </label>
+                <input type="text" placeholder="Last Name" id="lastname" required>
+                <br>
+                <br>
+                Gender :
+                Male :
+                <input type="radio" name="gender">
+                Female :
+                <input type="radio" name="gender">
+                others :
+                <input type="radio" name="gender">
+                <br>
+                <br>
+                Date of Birth :
+                <input type="date">
+                <br>
+                <br>
+                <label for="email">Email-ID : </label>
+                <input type="email" placeholder="Enter Your Email" id="email" required>
+                <br>
+                <br>
+                <label for="mobile">Mobile No. : </label>
+                <input type="tel" placeholder="+91" id="mobile" maxlength="10" required>
+                <br>
+                <br>
+                <label for="height">Height : </label>
+                <input type="number" placeholder="Height in ft" id="height">
+            </fieldset>
+            <fieldset>
+                <legend>Education</legend>
+                <label for="school">School : </label>
+                <input type="text" placeholder="SchoolName" id="school">
+                <br>
+                <br>
+                <label for="class">Class : </label>
+                <input type="text" placeholder="Enter Class" id="class">
+                <br>
+                <br>
+                Stream : 
+                <select>
+                    <option>Stream</option>
+                    <option>Science</option>
+                    <option>commerce</option>
+                    <option>Humanities</option>
+                    <option>Arts</option>
+                </select>
+                <br>
+                <br>
+                Marksheet : 
+                <input type="file">
+            </fieldset>
+            <br>
+            <button>submit</button>
+        </form>
+        <script src="" async defer></script>
+    </body>
+</html>
